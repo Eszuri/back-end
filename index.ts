@@ -15,7 +15,7 @@ mongoose.connect(String(process.env.MONGO_URI))
     .catch(err => console.log(err))
 
 
-// app.get("/", root);
+app.get("/", root);
 app.use('/api', api);
 
 app.listen(3000, () => {
