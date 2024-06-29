@@ -3,7 +3,7 @@ import express from 'express';
 import middleware from './config/middleware';
 import mongoose from 'mongoose';
 import { api } from './controller';
-import root from "./controller/home";
+import root from "@/controller/home";
 const app = express();
 
 
