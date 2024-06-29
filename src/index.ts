@@ -1,9 +1,9 @@
 import "dotenv/config"
 import express from 'express';
-import middleware from './src/config/middleware';
+import middleware from './config/middleware';
 import mongoose from 'mongoose';
-import { api } from './src/controller';
-import root from "./src/controller/home";
+import { api } from './controller';
+import root from "./controller/home";
 const app = express();
 
 middleware(app);
